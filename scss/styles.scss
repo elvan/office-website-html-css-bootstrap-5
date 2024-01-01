@@ -50,3 +50,36 @@
   left: -300px;
   width: 600px;
 }
+
+.to-top-btn {
+  opacity: 0;
+  z-index: 20;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 52px;
+  height: 52px;
+  border: none;
+  border-radius: 50%;
+  outline: none;
+  cursor: pointer;
+  background-color: #44434a;
+  transition: all 0.5s ease-in-out;
+}
+
+.to-top-btn {
+  &:hover {
+    background-color: #1d1d21;
+  }
+}
+
+.to-top-btn {
+  img {
+    width: 18px;
+    margin-bottom: 0.25rem;
+  }
+}
+
+.show {
+  opacity: 1;
+}
