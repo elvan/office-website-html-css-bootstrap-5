@@ -83,3 +83,47 @@
 .show {
   opacity: 1;
 }
+
+@media (max-width: 992px) {
+  .xl-text {
+    font-size: 50px;
+  }
+
+  .navbar {
+    .btn-outline-secondary {
+      margin-top: 20px;
+    }
+  }
+
+  .header {
+    margin-top: 0px !important;
+    text-align: center;
+  }
+
+  .header .decoration-star {
+    left: -100px;
+    width: 250px;
+  }
+
+  .header .decoration-star-2 {
+    right: -100px;
+    width: 250px;
+  }
+
+  .header .image-container {
+    margin-top: 30px;
+  }
+
+  .services .col-md-4 {
+    margin: 10px 0;
+    border-bottom: 1px #ccc solid;
+  }
+
+  .details-2 {
+    margin-top: 20px !important;
+  }
+
+  .details-2 .decoration-star {
+    top: 300px;
+  }
+}
